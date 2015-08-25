@@ -42,3 +42,67 @@ li .active {
   border-right: none;
   border-left: none;
 }
+.body-content {
+  background: #f3f3f3 !important;
+  background-color: #f3f3f3 !important;
+}
+.home {
+  background: rgba(187, 187, 187, 0.5);
+  background-color: rgba(187, 187, 187, 0.5);
+  cursor: pointer;
+}
+.home:hover {
+  background: #f3f3f3 !important;
+  background-color: #f3f3f3 !important;
+}
+.img-home {
+  background: rgba(187, 187, 187, 0.5);
+  background-color: rgba(187, 187, 187, 0.5);
+}
+.text {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.home figcaption img {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.img1 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.home-content {
+  padding: 4px;
+}
+.text-price {
+  color: #fd8103;
+  font-weight: bold;
+}
+.home {
+  background-image: url(../img/sticker_new.png);
+  background-position: absolute;
+  top: 0px;
+}
+.footer {
+  padding: 12px;
+  background: #434446 !important;
+  background-color: #434446 !important;
+}
+.img-social {
+  background: rgba(187, 187, 187, 0.5);
+  background-color: rgba(187, 187, 187, 0.5);
+  border-radius: 50px;
+  cursor: pointer;
+  filter: alpha(opacity=20);
+  margin-top: 10px;
+  opacity: 0.2;
+}
+.img-social:hover {
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+  border-radius: 1px;
+  z-index: -190px;
+}
+.text-white {
+  color: #f3f3f3 !important;
+}
