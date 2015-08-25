@@ -1,0 +1,46 @@
+.navbar,
+.navbar-default{
+	margin-bottom: 0px;
+	background: @color-navbar;
+	background-color: @color-navbar;
+	border:none;
+}
+.navbar-header{
+	background: @color-navbar;
+	background-color: @color-navbar;
+}
+.collapse,
+.navbar-collapse{
+	background: @color-navbar-header;
+	background-color: @color-navbar-header;
+	width: 100% !important;
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: white !important;
+}
+.navbar ul li a,
+.navbar-nav ul li a{
+	padding: 10px;
+}
+li .active{
+	background: @color-navbar;
+	background-color: @color-navbar;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover
+{
+	color:@color-body;
+	background-color:transparent;
+	border-bottom-color: @color-navbar;
+	-webkit-border-bottom-color:@color-navbar;
+	-o-border-bottom-color:@color-navbar;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
